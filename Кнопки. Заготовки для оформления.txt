@@ -31,4 +31,14 @@
   border: none;
   outline: none;
   background-color: #59B5FF;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: #FFFFFF;
+  background-color: #59B5FF90;
+}
+.btn:active {
+  color: #FFFFFF;
+  background-color: #8EC3ED;
 }
