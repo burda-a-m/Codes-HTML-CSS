@@ -1,0 +1,29 @@
+Перед оформлением в HTML-код добавляем все возможные варианты визуально напоминающие кнопки.
+
+<a class="offer__button btn" href="https://t.me/Irina_Kozhenkova" target="_blank">Договориться о времени</a>
+<input class="btn" type="button" value="Договориться о времени">
+<input class="btn" type="submit" value="Договориться о времени">
+<input class="btn" type="reset" value="Договориться о времени">
+<button class="btn">Договориться о времени</button>
+<button class="btn" type="button">Договориться о времени</button>
+<button class="btn" type="submit">Договориться о времени</button>
+<button class="btn" type="reset">Договориться о времени</button>
+
+И для класса .btn на все случаи прописываем стили.
+
+.btn {
+  -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  display: inline-block;
+  line-height: 19px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px 30px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  background-color: #59B5FF;
+}
